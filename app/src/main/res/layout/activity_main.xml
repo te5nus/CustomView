@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <com.example.testcustomview.CustomView
+        android:id="@+id/custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        app:barColor="@color/white"
+        app:barCorner="12dp"
+        app:barElevationCorner="8dp"
+        app:selectedTextColor="@color/selectedTextColor"
+        app:unselectedTextColor="@color/unselectedTextColor"
+        app:selectorElevationColor="@color/elevationColor"
+        app:selectorElevationCorner="12dp"
+        app:textSize="20sp"
+        app:selectorColor="@color/white"
+        app:textPaddingHorizontal="8dp"
+        app:textPaddingVertical="12dp"
+        app:viewPaddingHorizontal="20dp"
+        app:viewPaddingVertical="12dp"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

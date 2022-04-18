@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomView">
+        <attr name="selectedTextColor" format="color" />
+        <attr name="unselectedTextColor" format="color" />
+        <attr name="barColor" format="color" />
+        <attr name="selectorColor" format="color" />
+        <attr name="selectorElevationColor" format="color" />
+        <attr name="barElevationColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="barCorner" format="dimension" />
+        <attr name="barElevationCorner" format="dimension" />
+        <attr name="selectorElevationCorner" format="dimension" />
+        <attr name="viewPaddingVertical" format="dimension" />
+        <attr name="viewPaddingHorizontal" format="dimension" />
+        <attr name="textPaddingVertical" format="dimension" />
+        <attr name="textPaddingHorizontal" format="dimension" />
+    </declare-styleable>
+
+</resources>
